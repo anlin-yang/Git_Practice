@@ -1,0 +1,20 @@
+{
+  "name": "my.devtools",
+  "version": "1.0.0",
+  "description": "ewaaaa这aa是一个空文本。init 增加了一行文字 增加第二行文字 增加了第三行文字 增加了第四行",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anlin-yang/my.devtools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anlin-yang/my.devtools/issues"
+  },
+  "homepage": "https://github.com/anlin-yang/my.devtools#readme",
+
+}
