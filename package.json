@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/anlin-yang/my.devtools/issues"
   },
-  "homepage": "https://github.com/anlin-yang/my.devtools#readme"
+  "homepage": "https://github.com/anlin-yang/my.devtools#readme",
+  "dependencies": {
+    "express": "4.14.0",
+    "webpack": "1.13.1",
+    "http-proxy": "1.14.0",
+    "webpack-dev-middleware": "1.6.1"
+  }
 }
