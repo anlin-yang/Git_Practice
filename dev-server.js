@@ -9,9 +9,8 @@ const httpProxy = require('http-proxy');
 
 const server = {};
 
-const publicPath = webpackOptions.output.publicPath || '/';
 
-sever.fallbackToIndexIf = () => false;
+server.fallbackToIndexIf = () => false;
 
 // 根据请求判断是否返回页面
 server.fallbackToIndexIfReq = req => {
@@ -28,7 +27,6 @@ server.localAt = function (port, urlMap) {
   console.info('http://localhost:' + port + ' (本地数据版)');
   server.localApp.listen(port);
 };
-
 
 // 创建devServer
 function devServer(webpackOptions) {
