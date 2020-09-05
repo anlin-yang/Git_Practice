@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "4.14.0",
     "webpack": "1.13.1",
-    "http-proxy": "1.14.0",
+    "http-proxy": "1.18.1",
     "webpack-dev-middleware": "1.6.1"
   }
 }
